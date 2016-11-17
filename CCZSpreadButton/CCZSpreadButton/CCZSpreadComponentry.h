@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, CCZSpreadStyle) {
 @property (nonatomic, strong) NSArray <UIView *> *subItems;
 @property (nonatomic, assign) NSTimeInterval duration;
 @property (nonatomic, assign) BOOL spreadButtonOpenViscousity; /**< 开启粘滞功能 #YES*/
-@property (nonatomic, assign) CGFloat radius; /**< 弹出btn半径 #70*/
+@property (nonatomic, assign) CGFloat radius; /**< 弹出btn半径 #22*/
 @property (nonatomic, assign) BOOL wannaToClips; /**< 切圆 #YES*/
 @property (nonatomic, assign) BOOL canClickTempOn;  /**< 开启背景遮幕 #YES*/
 @property (nonatomic, assign) BOOL wannaToClickTempDismiss; /**< 点击屏幕消失 ；需要设置canClickTempOn = YES #YES*/

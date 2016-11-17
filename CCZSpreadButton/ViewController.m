@@ -30,10 +30,6 @@
     }];
 }
 
-- (void)didclik {
-    
-}
-
 - (IBAction)openVisouse:(UISwitch *)sender {
     self.com.spreadButtonOpenViscousity = sender.on;
 }

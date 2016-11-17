@@ -443,17 +443,6 @@ CGFloat        const CCZRadiusStep = 5; // 递归变量递增值
     return aAngle;
 }
 
-- (void)calAutoFixOffsetAngle:(CGFloat *)sAngle totalAngle:(CGFloat *)angle {
-    CGPoint cp = CGPointMake(self.frame.origin.x + self.frame.size.width / 2, self.frame.origin.y + self.frame.size.height / 2);
-    
-    CGFloat lmax = _fixLength + _radius + CCZBorderSpace;
-    if (cp.y < lmax) {
-        CGFloat a = acos((cp.y - _radius - CCZBorderSpace) / _fixLength) - *sAngle;
-        *sAngle += a;
-        *angle  -= 2 * a;
-    }
-}
-
 #pragma mark -
 #pragma mark -- ##### set #####
 
